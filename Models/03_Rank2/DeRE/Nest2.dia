@@ -1,0 +1,9 @@
+
+ Deltares, NESTHD2 Version 1.60.01.6581, Sep 27 2016, 09:37:40
+  
+ >>> Reading hydrodynamic data from history file <<<
+ >>> Generating hydrodynamic boundary conditions <<<
+ *** Warning: Nest station (   99,  223) is permanent dry throughout simulation.
+ *** Warning: Nest station (   99,  223) is permanent dry throughout simulation.
+ *** Warning: Nest station (   99,  223) is permanent dry throughout simulation.
+ >>> Writing hydrodynamic boundary conditions <<<

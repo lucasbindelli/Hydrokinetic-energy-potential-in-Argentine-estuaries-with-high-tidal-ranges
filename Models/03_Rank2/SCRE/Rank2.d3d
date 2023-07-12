@@ -1,0 +1,8 @@
+[FileInformation]
+  FileGeneratedBy  = Deltares, QUICKIN Version 5.00.01.48953M, Dec 14 2016, 09:17:31
+  FileCreationDate = 2017-11-30, 12:41:43
+  FileVersion      = 0.02
+[Grid]
+  Type        = RGF
+  FileName    = Rank2.grd
+  FlowDepth   = Rank2.dep
