@@ -1,8 +1,0 @@
-[FileInformation]
-  FileGeneratedBy  = Deltares, QUICKIN Version 5.03.00.56794 (Win64), Jul 12 2018, 20:45:20
-  FileCreationDate = 2019-02-14, 14:44:56
-  FileVersion      = 0.02
-[Grid]
-  Type        = RGF
-  FileName    = Rank3.grd
-  FlowDepth   = Rank3.dep
