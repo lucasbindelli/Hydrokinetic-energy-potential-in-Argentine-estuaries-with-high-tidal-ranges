@@ -1,0 +1,48 @@
+#------------------------------------------------------------------------
+# cluster ARTURO
+#                    Instituto Nacional del Agua
+#
+# Host        : PHC-LHA-INA
+# Ejecucion   : qsub script
+#
+#------------------------------------------------------------------------
+
+#------------------------------------------------------------------------
+#PBS -N Rank3Gr
+#PBS -l nodes=1:ppn=8
+#------------------------------------------------------------------------
+
+#------------------------------------------------------------------------
+#PBS -l nice=10
+#PBS -l walltime=192:00:00
+#------------------------------------------------------------------------
+
+#PBS -j oe
+NP=$(wc -l $PBS_NODEFILE | awk '{print $1}')
+
+echo "nodes ($NP cpu total):"
+sort $PBS_NODEFILE | uniq
+echo
+
+export ARCH=lnx64
+export D3D_HOME=/share/apps/Delft3D/7353/bin
+exedir=$D3D_HOME/$ARCH/flow2d3d/bin
+export LD_LIBRARY_PATH=$exedir:$LD_LIBRARY_PATH
+export PATH="/share/apps/Delft3D/D3D_builded/bin:${PATH}"
+
+cd $PBS_O_WORKDIR
+echo WORKDIR = $PBS_O_WORKDIR
+echo $PATH
+echo $LD_LIBRARY_PATH
+
+rm -f log*.irlog
+rm -f TMP_*
+
+mpirun -machinefile ${PBS_NODEFILE} -np $NP $exedir/d_hydro.exe config_flow2d3d.xml 2>&1 | tee log
+
+rm -f log*.irlog
+rm -f TMP_*
+
+#------------------------------------------------------------------------
+# Termina el script
+exit 0
