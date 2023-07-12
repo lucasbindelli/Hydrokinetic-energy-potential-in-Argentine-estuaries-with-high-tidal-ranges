@@ -1,0 +1,70 @@
+ObsUp1                  42    123
+ObsUp2                  45    123
+ObsUp3                  49    123
+ObsUp4                  53    123
+ObsUp5                  57    123
+ObsUp6                  61    123
+ObsUp7                  65    123
+ObsUp8                  69    123
+ObsUp9                  73    123
+ObsUp10                 77    123
+ObsRight1               81     16
+ObsRight2               81     19
+ObsRight3               81     23
+ObsRight4               81     27
+ObsRight5               81     31
+ObsRight6               81     35
+ObsRight7               81     39
+ObsRight8               81     43
+ObsRight9               81     47
+ObsRight10              81     51
+ObsRight11              81     55
+ObsRight12              81     59
+ObsRight13              81     63
+ObsRight14              81     67
+ObsRight15              81     71
+ObsRight16              81     75
+ObsRight17              81     79
+ObsRight18              81     83
+ObsRight19              81     87
+ObsRight20              81     91
+ObsRight21              81     95
+ObsRight22              81     99
+ObsRight23              81    103
+ObsRight24              81    107
+ObsRight25              81    111
+ObsRight26              81    115
+ObsRight27              81    119
+ObsDown1                18     16
+ObsDown2                22     16
+ObsDown3                26     16
+ObsDown4                30     16
+ObsDown5                34     16
+ObsDown6                38     16
+ObsDown7                42     16
+ObsDown8                46     16
+ObsDown9                50     16
+ObsDown10               54     16
+ObsDown11               58     16
+ObsDown12               62     16
+ObsDown13               66     16
+ObsDown14               70     16
+ObsDown15               74     16
+ObsDown16               78     16
+PUERTO MAR DEL PLATA   122    192
+PUERTO BELGRANO         76    183
+PUERTO SAN ANTONIO      48    164
+CARG. PUNTA COLORADA    47    155
+PUERTO MADRYN           48    145
+PUERTO RAWSON           47    139
+PTO CMDRO RIVADAVIA     22    113
+CALETA PAULA            23    108
+PUERTO DESEADO          39     95
+PUERTO SAN JULIAN       22     80
+PUNTA QUILLA            15     71
+PUNTA LOYOLA             9     56
+PUERTO ARGENTINO       119     55
+BAHIA SAN SEBASTIAN     14     40
+PUERTO RIO GRANDE       21     35
+BAHIA THETIS            45     26
+PUERTO VANCOUVER        57     25
